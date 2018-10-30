@@ -1,0 +1,290 @@
+@charset "UTF-8";
+html {
+  overflow-y: scroll; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 0.2133333rem "微软雅黑,arial";
+  background: #ffffff; }
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+  padding: 0;
+  margin: 0; }
+
+table, td, tr, th {
+  font-size: 0.16rem; }
+
+li {
+  list-style-type: none; }
+
+img {
+  vertical-align: top;
+  border: 0; }
+
+ol, ul {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0.16rem;
+  font-weight: normal; }
+
+address, cite, code, em, th {
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: #f6f6f6;
+  overflow: hidden; }
+
+header {
+  height: 5.3333333333rem;
+  width: 100%;
+  position: relative; }
+  header .header-top {
+    height: 1.5333333333rem;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    header .header-top img {
+      height: 0.7333333333rem;
+      width: 0.6666666667rem; }
+    header .header-top .xiaoxi {
+      height: 1rem;
+      width: 0.6666666667rem;
+      font-size: 0.2666666667rem;
+      color: #fff;
+      text-align: center; }
+      header .header-top .xiaoxi img {
+        height: 0.6666666667rem;
+        width: 0.6666666667rem; }
+    header .header-top .top-input {
+      height: 0.6666666667rem;
+      width: 7.3333333333rem;
+      position: relative;
+      z-index: 30;
+      border: 1px solid;
+      display: flex;
+      justify-content: flex-end;
+      background: #fff;
+      border-radius: 0.4rem; }
+      header .header-top .top-input img {
+        position: relative;
+        left: -6.3333333333rem; }
+    header .header-top input {
+      border: none;
+      background: #fff;
+      background: url(../img/search1.png);
+      background-repeat: no-repeat;
+      background-position: left center;
+      width: 5.3333333333rem;
+      height: 0.6666666667rem;
+      padding-left: 0.6666666667rem;
+      position: absolute;
+      z-index: 10;
+      font-size: 0.3733333333rem;
+      color: #666666;
+      background-image: url(../img/search1.png);
+      background-repeat: no-repeat; }
+
+section {
+  height: 5.0666666667rem;
+  width: 100%;
+  border-top-right-radius: 0.2666666667rem;
+  border-top-left-radius: 0.2666666667rem;
+  padding-top: 0.2666666667rem;
+  z-index: 10;
+  position: relative;
+  top: -0.2rem;
+  display: flex;
+  background: #fff;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  section .choice {
+    height: 1.6rem;
+    width: 1.8666666667rem;
+    font-size: 0.32rem;
+    color: #686868;
+    text-align: center; }
+    section .choice .choice-img {
+      height: 1.3333333333rem;
+      width: 1.8666666667rem; }
+      section .choice .choice-img img {
+        height: 1.0666666667rem;
+        width: 1.0666666667rem; }
+    section .choice .choice-text {
+      height: 0.2666666667rem;
+      width: 2rem;
+      margin-top: 0.1333333333rem; }
+
+.kuaibao {
+  height: 0.6666666667rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -0.2rem; }
+  .kuaibao .kuaibao-title {
+    height: 0.6666666667rem;
+    width: 9.6rem;
+    border-radius: 0.0666666667rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .kuaibao .kuaibao-title a {
+      text-decoration: none;
+      font-size: 0.3333333333rem; }
+      .kuaibao .kuaibao-title a span {
+        color: red; }
+    .kuaibao .kuaibao-title a:nth-child(3) {
+      border-left: 1px solid; }
+    .kuaibao .kuaibao-title .kuaibao-title-img {
+      height: 0.6666666667rem;
+      width: 1.8rem;
+      font-size: 0.2666666667rem;
+      line-height: 0.6666666667rem; }
+      .kuaibao .kuaibao-title .kuaibao-title-img img {
+        height: 0.6666666667rem;
+        width: 1.6rem; }
+
+.fuli {
+  height: 3.4666666667rem;
+  width: 100%;
+  margin-top: 0.2rem;
+  background-image: url(../img/fuli.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.miaosha {
+  height: 4.4rem;
+  width: 100%;
+  margin-top: 0.1333333333rem; }
+  .miaosha input {
+    height: 0.4rem;
+    width: 0.4rem;
+    background: #fff;
+    border: 0.0133333333rem solid #afabab;
+    font-size: 0.2666666667rem; }
+  .miaosha .miaosha-top {
+    height: 0.6666666667rem;
+    width: 100%;
+    display: flex;
+    background: #fff;
+    justify-content: space-around; }
+    .miaosha .miaosha-top a {
+      height: 0.6666666667rem;
+      width: 6.6666666667rem;
+      text-decoration: none;
+      font-size: 0.3333333333rem;
+      font-weight: bold;
+      vertical-align: middle; }
+      .miaosha .miaosha-top a img {
+        position: relative;
+        top: -0.0666666667rem;
+        left: 0.2rem; }
+      .miaosha .miaosha-top a span {
+        color: #f02b2b;
+        font-size: 0.4rem;
+        font-weight: bold; }
+    .miaosha .miaosha-top a:nth-child(2) {
+      height: 0.6666666667rem;
+      width: 2.6666666667rem;
+      font-size: 0.3333333333rem;
+      color: red;
+      font-weight: 1.3333333333rem;
+      line-height: 0.6666666667rem; }
+  .miaosha .miaosha-product {
+    height: 3.7333333333rem;
+    width: 100%;
+    display: flex;
+    background: #fff;
+    justify-content: space-between; }
+    .miaosha .miaosha-product .miaosha-product-show {
+      height: 3.7333333333rem;
+      width: 2.4rem; }
+      .miaosha .miaosha-product .miaosha-product-show .product-show-img {
+        height: 1.8666666667rem;
+        width: 1.8666666667rem;
+        padding: 0.2666666667rem; }
+        .miaosha .miaosha-product .miaosha-product-show .product-show-img img {
+          height: 1.8666666667rem;
+          width: 1.8666666667rem; }
+      .miaosha .miaosha-product .miaosha-product-show .product-show-text {
+        height: 1.0666666667rem;
+        width: 2.4rem;
+        background: #fff;
+        text-align: center;
+        font-size: 0.3333333333rem; }
+        .miaosha .miaosha-product .miaosha-product-show .product-show-text span {
+          color: red;
+          font-size: 0.5333333333rem; }
+
+.title {
+  height: 0.9333333333rem;
+  width: 100%;
+  text-align: center; }
+  .title img {
+    height: 100%; }
+
+.items {
+  width: 10rem;
+  height: 6.4266666667rem;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+  .items .ta {
+    height: 2.96rem;
+    width: 5rem;
+    padding-top: 0.2666666667rem; }
+  .items .tb {
+    width: 25%;
+    height: 3.2rem;
+    padding-top: 0.2666666667rem; }
+
+.s1 {
+  font-size: 0.4533333333rem;
+  line-height: 100%; }
+
+.s2 {
+  font-size: 0.32rem;
+  line-height: 0.8rem;
+  color: #648eff; }
+
+.img {
+  width: 1.7333333333rem;
+  height: 1.7333333333rem;
+  padding: 0 0.2rem; }
+
+.foot {
+  width: 10rem;
+  height: 1.6rem; }
+
+footer {
+  width: 10rem;
+  height: 1.3333333333rem;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 3;
+  box-shadow: -0.1333333333rem 0 0.4rem rgba(0, 0, 0, 0.2); }
+  footer img {
+    height: 1.2rem;
+    width: 1.6rem; }
+
+.swiper-container {
+  width: 100%;
+  height: 5.3333333333rem; }
+  .swiper-container img {
+    height: 100%;
+    width: 100%; }
+
+/*# sourceMappingURL=sass.css.map */
